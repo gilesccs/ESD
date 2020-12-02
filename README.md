@@ -1,11 +1,12 @@
-# ESD
+# SgLoveLah is an online dating application with core functionalities like live-chat, profile swiping and profile creation.
 
-# make sure wamp is on.
-# create databases, sglovelah_chat, sglovelah_profile, sglovelah_account, sglovelah_match, sglovelah_recommendation, sglovelah_image
-# cd into /backend/dbscripts and import all files to populate each database accordingly
-# `` pip3 install flask-socketio
-# cd into /backend/chatms, run all chatsocketone/two/three/four/five.py, run chat.py
-# cd into /backend, run image.py match.py profile.py recommendation.py account.py
+## Instructions to deploy
+#### make sure wamp is on.
+#### create databases, sglovelah_chat, sglovelah_profile, sglovelah_account, sglovelah_match, sglovelah_recommendation, sglovelah_image
+#### cd into /backend/dbscripts and import all files to populate each database accordingly
+#### `` pip3 install flask-socketio
+#### cd into /backend/chatms, run all chatsocketone/two/three/four/five.py, run chat.py
+#### cd into /backend, run image.py match.py profile.py recommendation.py account.py
 
 To run the entire app,
 1. cd into project directory, click on "start_microservices" batch file 
